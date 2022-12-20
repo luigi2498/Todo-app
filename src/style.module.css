@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: royalblue;
+    height: 50px;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.todoForm {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.todoInput {
+    width: 100%;
+    border: none;
+    border-bottom: 4px solid whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    height: 50px;
+}
+
+.todoButton {
+    width: 100%;
+    border: none;
+    height: 50px;
+    background-color: lightgreen;
+    font-size: 16px;
+    color: white;
+    margin-top: 50px;
+    transition: 0.4s;
+}
+
+.todoButton:hover {
+    cursor: pointer;
+    color: black;
+    background-color: violet;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todoItem {
+    margin: auto;
+    border: 4px solid whitesmoke;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.todoName {
+    font-style: italic;
+}
+
+.deleteButton {
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 2px;
+    font-size: 16px;
+    color: white;
+    background-color: lightgreen;
+    transition: 0.4s;
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: tomato;
+}
